@@ -1,0 +1,5 @@
+{% extends "layout.html" %}
+{% block content %}
+    <p>Monster Count: {{ count | safe }}</p>
+    {{ table | safe }}
+{% endblock %}
